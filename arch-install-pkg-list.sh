@@ -26,10 +26,11 @@ function install_package() {
 }
 
 # List of packages to install
-packages=(gdm gnome-shell reflector ufw vim neofetch htop btop \
-foot lf nautilus gnome-text-editor firefox git base-devel evince \
- gnome-control-center loupe xdg-user-dirs-gtk \
- archlinux-wallpaper ttf-jetbrains-mono-nerd )
+packages=(gdm gnome-shell reflector ufw vim \
+neofetch htop btop foot lf nautilus gnome-text-editor \
+firefox git base-devel evince gnome-control-center \ 
+loupe xdg-user-dirs-gtk archlinux-wallpaper \
+ttf-jetbrains-mono-nerd )
 
 # Install each package
 for package in "${packages[@]}"; do
