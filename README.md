@@ -11,5 +11,4 @@ gdm gnome-shell gnome-control-center foot lf git base-devel reflector ufw vim ht
 foot lf reflector bash
 
 ### bash scripts for:
-installing packages if any missed in initial inatall
-placing config files
+installing packages and placing config files
