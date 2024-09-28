@@ -1,5 +1,5 @@
 # arch-config-files
-files and bash scripts for a minimal archlinux gnome install
+files and bash scripts for a minimal arch linux gnome install
 
 ### archinstall:
 minimal profile networkmanager pipewire
