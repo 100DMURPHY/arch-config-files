@@ -12,4 +12,3 @@ export VISUAL=vim
 export EDITOR=vim
 export TERM=foot
 export TERMINAL=foot
-#export OPENER=rifle
