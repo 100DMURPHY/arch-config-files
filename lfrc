@@ -37,6 +37,11 @@ map X !$f
 map o &mimeopen $f
 map O $mimeopen --ask $f
 
+#cmd open-with-gui &$@ $fx # opens asynchronously, intended for GUI applications
+#cmd open-with-cli $$@ $fx # opens synchronously, intended for CLI/TUI applications
+#map O push :open-with-gui<space>
+#map o push :open-with-cli<space>
+
 # define a custom 'open' command
 # This command is called when current file is not a directory. You may want to
 # use either file extensions and/or mime types here. Below uses an editor for

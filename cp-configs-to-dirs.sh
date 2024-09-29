@@ -21,10 +21,10 @@ function copy_file_to_dir() {
 
 # List of files and their corresponding directories
 files_and_dirs=(
-  "reflector.conf" "/etc/xdg/reflector/reflector.conf"
-  ".bashrc" "$HOME/.bashrc"
-  "foot.ini" "$HOME/.config/foot/foot.ini"
-  "lfrc" "$HOME/.config/lf/lfrc"
+  "reflector.conf" "/etc/xdg/reflector/"
+  ".bashrc" "$(getent passwd $SUDO_USER | cut -d: -f6)"
+  "foot.ini" "$(getent passwd $SUDO_USER | cut -d: -f6)/.config/foot/"
+  "lfrc" "$(getent passwd $SUDO_USER | cut -d: -f6)/.config/lf/"
 )
 
 # Copy each file to its respective directory
