@@ -6,8 +6,7 @@ function copy_file_to_dir() {
   dir="$2"
 
   if [[ ! -d "$dir" ]]; then
-    echo "Directory '$dir' does not exist."
-    return 1
+    mkdir -p "$dir"
   fi
 
   cp "$file" "$dir"
