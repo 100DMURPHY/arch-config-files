@@ -31,7 +31,7 @@ neofetch htop btop nautilus gnome-text-editor \
 git base-devel evince gnome-control-center \ 
 loupe xdg-user-dirs-gtk archlinux-wallpaper \
 ttf-jetbrains-mono-nerd yazi ffmpegthumbnailer \
-p7zip jq poppler fd ripgrep fzf zoxide imagemagick\
+p7zip jq poppler fd ripgrep fzf zoxide imagemagick \
 gnome-disk-utility wget)
 
 # Install each package
