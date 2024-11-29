@@ -27,12 +27,12 @@ function install_package() {
 
 # List of packages to install
 packages=(gdm gnome-shell reflector ufw vim \
-neofetch htop btop foot lf nautilus gnome-text-editor \
-firefox git base-devel evince gnome-control-center \ 
+neofetch htop btop nautilus gnome-text-editor \
+git base-devel evince gnome-control-center \ 
 loupe xdg-user-dirs-gtk archlinux-wallpaper \
 ttf-jetbrains-mono-nerd yazi ffmpegthumbnailer \
 p7zip jq poppler fd ripgrep fzf zoxide imagemagick\
-gnome-disk-utility tldr wget)
+gnome-disk-utility wget)
 
 # Install each package
 for package in "${packages[@]}"; do
